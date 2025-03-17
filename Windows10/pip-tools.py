@@ -142,9 +142,7 @@ def pip_install(error_message):
                     "openpyxl",
                     "PyPDF2",
                     "python-docx",
-                    "Pillow",
-                    "pywin32",
-                    "textract"
+                    "Pillow"
                 ]
                 
                 for package in packages:

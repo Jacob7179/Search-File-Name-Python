@@ -15,18 +15,23 @@ def main():
     try:
         choice = (input("\nEnter your choice here : "))
 
+        current_dir = os.path.dirname(os.path.abspath(__file__))
+
         if choice == "0":
             sys.exit()
 
         elif choice == "1":
             print("Running Search_File_Word.py...")
-            subprocess.run(["python", "resource/Search_File_Word.py"])
+            script_path = os.path.join(current_dir, "resource", "Search_File_Word.py")
+            subprocess.run(["python", script_path])
         elif choice == "2":
             print("Running Search_File_Excel.py...")
-            subprocess.run(["python", "resource/Search_File_Excel.py"])
+            script_path = os.path.join(current_dir, "resource", "Search_File_Excel.py")
+            subprocess.run(["python", script_path])
         elif choice == "3":
             print("Running Search_File_PDF.py...")
-            subprocess.run(["python", "resource/Search_File_PDF.py"])
+            script_path = os.path.join(current_dir, "resource", "Search_File_PDF.py")
+            subprocess.run(["python", script_path])
         else:
             main()
     except KeyboardInterrupt:
