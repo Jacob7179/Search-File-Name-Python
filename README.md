@@ -47,11 +47,15 @@
     <th>Status</th>
   </tr>
   <tr>
-    <td>Windows 10</td>
+    <td>Windows 11 64-bit</td>
     <td>✅ Supported</td>
   </tr>
   <tr>
-    <td>Windows 7</td>
+    <td>Windows 10 64-bit</td>
+    <td>✅ Supported</td>
+  </tr>
+  <tr>
+    <td>Windows 7 32-bit</td>
     <td>🚧 In Progress</td>
   </tr>
 </table>
