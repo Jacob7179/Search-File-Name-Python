@@ -6,14 +6,18 @@
 
 
 > [!NOTE]
-> **The project was developed using Python**
+> **The project was developed using Python.**
 
 > [!TIP]
 > Run **run.bat** as **Administrator** and **wait** for the **installation until complete**. If the **command prompt** is **crash or gone** just **run it again**.
 >
 > **After installation complete**, you can use the program. You can run **start.py** to use the program **next time** or run **Search_File_Word.py**, **Search_File_Excel.py** & **Search_File_PDF.py** in **resource** folder.
 >
-> Installation only detect Windows 7 32-bit, Windows 8.1 64-bit & Windows 10 64-bit (Windows 11 64-bit is detected as Windows 10 64-bit). If detected other Windows version will use Windows 10 installation methods.
+> **Installation only detect Windows 7 32-bit, Windows 8.1 64-bit & Windows 10 64-bit (Windows 11 64-bit is detected as Windows 10 64-bit). If detected other Windows version will use Windows 10 installation methods.**
+>
+> **pip-tools.py in folder Windows10 and Windows7 are install pip library, uninstall pip library, upgrade pip and check pip and pip library version tools.**
+>
+> **If faced problem during installation on Windows 7, you can try to upgrade/install KB2533623 in folder Windows7/setup/Windows6.1-KB2533623-x64.msu.**
 
 ## Information
 
@@ -26,7 +30,7 @@
 >- **Directory Selection** – Users can select a folder to scan for files.
 >- **Interactive GUI (Tkinter)** – A user-friendly interface with buttons for browsing directories, searching, and opening selected files.
 
-## Details
+## Support List
 
 <table>
   <tr>
@@ -34,15 +38,15 @@
     <th>Status</th>
   </tr>
   <tr>
-    <td>Word</td>
+    <td>Word (.docx)</td>
     <td>✅ Supported</td>
   </tr>
   <tr>
-    <td>Excel</td>
+    <td>Excel (.xlsx & .xlsm)</td>
     <td>✅ Supported</td>
   </tr>
   <tr>
-    <td>PDF</td>
+    <td>PDF (.pdf)</td>
     <td>✅ Supported</td>
   </tr>
 </table>
