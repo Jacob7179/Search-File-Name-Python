@@ -8,6 +8,13 @@
 > [!NOTE]
 > **The project was developed using Python**
 
+> [!TIP]
+> Run **run.bat** as **Administrator** and **wait** for the **installation until complete**. If the **command prompt** is **crash or gone** just **run it again**.
+>
+> **After installation complete**, you can use the program. You can run **start.py** to use the program **next time** or run **Search_File_Word.py**, **Search_File_Excel.py** & **Search_File_PDF.py** in **resource** folder.
+>
+> Installation only detect Windows 7 32-bit, Windows 8.1 64-bit & Windows 10 64-bit (Windows 11 64-bit is detected as Windows 10 64-bit). If detected other Windows version will use Windows 10 installation methods.
+
 ## Information
 
 >**File Search Application (Word, Excel & PDF)**
@@ -56,7 +63,7 @@
   </tr>
   <tr>
     <td>Windows 8.1 64-bit</td>
-    <td>🚧 In Progress</td>
+    <td>✅ Supported</td>
   </tr>
   <tr>
     <td>Windows 7 32-bit</td>

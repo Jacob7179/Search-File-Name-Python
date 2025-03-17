@@ -14,23 +14,54 @@ for /f "tokens=4-5 delims=. " %%a in ('ver') do (
         echo Installing python-3.8.5.exe...
         "%~dp0windows7\setup\python-3.8.5.exe" /passive InstallAllUsers=1 PrependPath=1 Include_test=0
         
-        echo Installation complete.
+        echo Installation python-3.8.5.exe complete.
 
+        echo Upgrading pip and installing the required library...
         :: Ensure pip.py exists before execution
         if exist "%~dp0pip-w7.py" (
             python "%~dp0pip-w7.py"
         ) else (
             echo Warning: pip-w7.py not found. Skipping execution.
         )
-    )
-    if "%%a"=="10" (
+    ) else if "%%a.%%b"=="6.3" (
+        echo Windows 8.1 detected.
+
+        echo Installing python-3.11.0-amd64.exe...
+        "%~dp0windows10\setup\python-3.11.0-amd64.exe" /passive InstallAllUsers=1 PrependPath=1 Include_test=0
+
+        echo Installation python-3.11.0-amd64.exe complete.
+
+        echo Upgrading pip and installing the required library...
+        :: Ensure pip.py exists before execution
+        if exist "%~dp0pip-w10.py" (
+            python "%~dp0pip-w10.py"
+        ) else (
+            echo Warning: pip-w10.py not found. Skipping execution.
+        )
+    ) else if "%%a"=="10" (
         echo Windows 10 detected.
         
         echo Installing python-3.11.0-amd64.exe...
         "%~dp0windows10\setup\python-3.11.0-amd64.exe" /passive InstallAllUsers=1 PrependPath=1 Include_test=0
 
-        echo Installation complete.
+        echo Installation python-3.11.0-amd64.exe complete.
 
+        echo Upgrading pip and installing the required library...
+        :: Ensure pip.py exists before execution
+        if exist "%~dp0pip-w10.py" (
+            python "%~dp0pip-w10.py"
+        ) else (
+            echo Warning: pip-w10.py not found. Skipping execution.
+        )
+    ) else (
+        echo Incompatible Windows version detected. Using Windows 10 installation methods. May not success or incompatible.
+
+        echo Installing python-3.11.0-amd64.exe...
+        "%~dp0windows10\setup\python-3.11.0-amd64.exe" /passive InstallAllUsers=1 PrependPath=1 Include_test=0
+
+        echo Installation python-3.11.0-amd64.exe complete.
+
+        echo Upgrading pip and installing the required library...
         :: Ensure pip.py exists before execution
         if exist "%~dp0pip-w10.py" (
             python "%~dp0pip-w10.py"
