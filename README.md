@@ -55,7 +55,11 @@
     <td>✅ Supported</td>
   </tr>
   <tr>
-    <td>Windows 7 32-bit</td>
+    <td>Windows 8.1 64-bit</td>
     <td>🚧 In Progress</td>
+  </tr>
+  <tr>
+    <td>Windows 7 32-bit</td>
+    <td>✅ Supported</td>
   </tr>
 </table>

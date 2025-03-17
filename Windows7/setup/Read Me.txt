@@ -1,0 +1,6 @@
+If Python 3.8.5 (32-bit) is being installed on Windows 7 SP1, but the installation is failing due to a missing Windows update: KB2533623.
+Sollution is install windows updates: KB2533623.
+
+Source:
+Windows6.1-KB2533623-x64.msu
+https://archive.org/details/windows-6.1-kb-2533623-x-64
