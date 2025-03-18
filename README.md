@@ -1,4 +1,4 @@
-<h1 align="center">Search File Name Python</h1>
+<h1 align="center">Search File Python</h1>
 
 
 > [!WARNING]
@@ -6,7 +6,7 @@
 
 
 > [!NOTE]
-> **The project was developed using Python.**
+> **The project was developed using Python programming language.**
 
 > [!TIP]
 > Run **run.bat** as **Administrator** and **wait** for the **installation until complete**. If the **command prompt** is **crash or gone** just **run it again**.
@@ -18,19 +18,21 @@
 > **pip-tools.py in folder Windows10 and Windows7 are install pip library, uninstall pip library, upgrade pip and check pip and pip library version tools.**
 >
 > **If faced problem during installation on Windows 7, you can try to upgrade/install KB2533623 in folder Windows7/setup/Windows6.1-KB2533623-x64.msu.**
+>
+> **There have Python environment installation files on folder Windows10/setup/python-3.11.0-amd64.exe and Windows7/setup/python-3.8.5.exe. If you want to manual install by yourself, remember enable *Add Python x.x to PATH* and atleast install pip openpyxl, PyPDF2 and python-docx. Pillow pip are optional options.**
 
-## Information
+## **Information**
 
 >**File Search Application (Word, Excel & PDF)**
 >This Python-based application provides an efficient way to search for Word, Excel, and PDF files within a specified directory. Users can search based on file names or content while applying date-based filters to refine the results.
 
->**Key Features**
+## **Key Features**
 >- **Search by File Name or Content** – Users can choose between searching for file names or searching inside file contents.
 >- **Time-Based Filtering** – Options to filter by all time, start date, end date, or a date range.
 >- **Directory Selection** – Users can select a folder to scan for files.
 >- **Interactive GUI (Tkinter)** – A user-friendly interface with buttons for browsing directories, searching, and opening selected files.
 
-## Support List
+## **Supported List**
 
 <table>
   <tr>

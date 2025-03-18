@@ -6,7 +6,7 @@ import sys
 def main():
     os.system('cls')
     print("=============================================================================")
-    print("\t\t\tSearch File Name")
+    print("\t\t\tSearch File")
     print("=============================================================================")
     print("0. Exit  \t\t\t\t[EXIT]")
     print("1. Search File Word  \t\t\t[Word]")
