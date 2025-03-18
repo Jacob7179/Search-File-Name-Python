@@ -76,3 +76,11 @@
     <td>✅ Supported</td>
   </tr>
 </table>
+
+## Latest Release 
+
+[![Latest Release](https://img.shields.io/github/v/release/Jacob7179/Search-File-Python?sort=date&logo=github&label=latest&style=for-the-badge)](https://github.com/Jacob7179/Search-File-Python/releases/latest)
+
+## License
+
+[![License](https://img.shields.io/github/license/Jacob7179/Search-File-Python?logo=github&style=for-the-badge)](LICENSE)
