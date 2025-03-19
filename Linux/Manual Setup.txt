@@ -1,0 +1,22 @@
+// Setup Python and required packages
+sudo apt update
+sudo apt install python3-tk
+sudo apt install python3-pip -y
+pip3 --version
+pip3 install openpyxl
+pip3 install PyPDF2
+pip3 install python-docx
+
+
+// Run the script
+python <your_file_path/Search-File-Python/resource/Search_File_Word.py>
+python <your_file_path/Search-File-Python/resource/Search_File_Excel.py>
+
+
+// For PDF script
+cd
+python3 -m venv myenv
+source myenv/bin/activate
+pip install PyPDF2
+python <your_file_path/Search-File-Python/resource/Search_File_PDF.py>
+deactivate

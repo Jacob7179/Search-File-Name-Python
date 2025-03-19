@@ -60,6 +60,10 @@
     <th>Status</th>
   </tr>
   <tr>
+    <td>Linux 64-bit (Tested on Kali Linux 2024.4, a Debian-based distribution)</td>
+    <td>✅ Supported</td>
+  </tr>
+  <tr>
     <td>Windows 11 64-bit</td>
     <td>✅ Supported</td>
   </tr>

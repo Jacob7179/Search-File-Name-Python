@@ -2,6 +2,8 @@ import tkinter as tk
 from tkinter import filedialog
 import os
 import datetime as dt
+import subprocess
+import sys
 import PyPDF2
 
 selected_files = []
@@ -78,7 +80,12 @@ def open_selected_files():
             for file in files:
                 if file == file_name:
                     file_path = os.path.join(root, file)
-                    os.startfile(file_path)
+                    if sys.platform.startswith("win"):
+                        os.startfile(file_path)
+                    elif sys.platform.startswith("darwin"):  # macOS
+                        subprocess.run(["open", file_path])
+                    else:  # Linux
+                        subprocess.run(["xdg-open", file_path])
 
 root = tk.Tk()
 root.title("Search File (PDF)")
